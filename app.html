@@ -8,7 +8,7 @@ if (!sessionStorage.getItem("cpcc_session")) {
 <!DOCTYPE html>
 <html>
 <head>
-<title>LJC CPCC System v4.1.1</title>
+<title>LJC CPCC System v4.1.2</title>
 
 <!-- Inter Font -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -491,10 +491,10 @@ body.history-open #historyContainer {
   window.OUTLET_NAME    = "ABE Trinoma";  // Friendly name for Google Sheet
   window.FIXED_OUTLET   = window.OUTLET_NAME; // legacy reference
   window.HISTORY_OUTLET = window.OUTLET_NAME;
-  window.HISTORY_URL    = "https://script.google.com/macros/s/AKfycbx_X4V7r0jkSfaW45ZQI9En7fkLJ2yE7iwcZQQcFUvAThTKco2DiKteyuD3vhFXnMG-/exec";
+  window.HISTORY_URL    = "https://script.google.com/macros/s/AKfycbzqT5VRNzKoSH76gbQUOyRuqBPpHBEYLlAtkJPF6lgmLLpAy3ELxADSUT067reuMje66A/exec";
 
   const _u =
-    "https://script.google.com/macros/s/AKfycbzp0Bu7Ir-oD2a6ACenh4r3XyGJsbyQdynyr6sSYIovTf9olOooCu_DVUfaWyvSU40i/exec";
+    "https://script.google.com/macros/s/AKfycbxlZn5aPGcx5lIgg1-jnTCJgHUZrrynIw5fRMgPeRasZRn-rZeq5ZaLz47V54a8H4Fapg/exec";
 
   const _s = function (m) {
     document.body.innerHTML =
@@ -877,7 +877,7 @@ body.history-open #historyContainer {
       }
 
       const url =
-        "https://script.google.com/macros/s/AKfycbx_X4V7r0jkSfaW45ZQI9En7fkLJ2yE7iwcZQQcFUvAThTKco2DiKteyuD3vhFXnMG-/exec" +
+        "https://script.google.com/macros/s/AKfycbzqT5VRNzKoSH76gbQUOyRuqBPpHBEYLlAtkJPF6lgmLLpAy3ELxADSUT067reuMje66A/exec" +
         "?apiKey=" + encodeURIComponent(API_KEY) +
         "&data=" + encodeURIComponent(JSON.stringify(rows));
   
@@ -1070,7 +1070,7 @@ window._uc = async function () {
 
   /* ===== HISTORY ===== */
   const _ho = window.OUTLET_NAME; // friendly outlet name for history
-  const _hu = "https://script.google.com/macros/s/AKfycbx_X4V7r0jkSfaW45ZQI9En7fkLJ2yE7iwcZQQcFUvAThTKco2DiKteyuD3vhFXnMG-/exec";
+  const _hu = "https://script.google.com/macros/s/AKfycbzqT5VRNzKoSH76gbQUOyRuqBPpHBEYLlAtkJPF6lgmLLpAy3ELxADSUT067reuMje66A/exec";
 
   window.openHistory = function(){
     document.body.classList.add("history-open");
